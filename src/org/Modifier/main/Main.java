@@ -1,34 +1,20 @@
 package org.Modifier.main;
 
-import org.animal.Cat;
-import org.animal.Human;
-import org.animal.Zoo;
+import org.Unit.Unit;
+import org.terran.Marine;
 
 public class Main {  
 
-	public static void main(String[] args) {
-	//	Cat cat = new Cat();
 	
-	//	cat.sound();
-	//	cat.age=5;
-	Human human =new Human();
-	//human.age=500;
-	human.setAge(50);
-	human.info();
-	
-	
-	//=======================================
-	
-	System.out.println(Zoo.title);
-	
-	Zoo.info();
-	
-	Zoo zoo =new Zoo ();
-	zoo.price=10000;
-	
-	
+		public static void main(String[] args) {
+			Marine m1 = new Marine();
+			m1. setHp(30);
+			m1.info();
+			m1.move();
+			}
+			
 	}
-	
 
-	
-}
+//new marine 만들때 부모객체 만들고 내려옴 
+//자식객체부터 만들면 부모객체를 만듬
+//부모객체 생성 = 객체 생성

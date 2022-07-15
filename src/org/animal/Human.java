@@ -36,6 +36,6 @@ public class Human {
 	public void mypet() {
 		Cat cat = new Cat();
 		//cat.age=10;
-		cat.sound();
+		//cat.sound();
 	}
 }
