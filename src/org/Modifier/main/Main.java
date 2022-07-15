@@ -3,6 +3,7 @@ package org.Modifier.main;
 import org.Unit.Unit;
 import org.terran.Marine;
 import org.terran.Scv;
+import org.zerg.Hydra;
 
 public class Main {  
 
@@ -14,8 +15,14 @@ public class Main {
 			// Marine is a Unit
 			// Scv    is a Unit
 			
+			Unit unit =m1;
+			Hydra hydra =new Hydra();
+			
+			m1.attack();
+			hydra.attack();
+			
 		//======================= 다항성 예제====================	
-			Unit unit =m1; //상속관계일때만 가능
+		//	Unit unit =m1; //상속관계일때만 가능
 			//마린타입은 유닛타입입니다.
 			System.out.println(unit.getHp());
 			System.out.println(unit.getColor());

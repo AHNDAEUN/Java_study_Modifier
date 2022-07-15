@@ -8,7 +8,7 @@ public abstract class Unit {
 	private String color;
 	private String name;
 	
-	public Unit(int tp) {
+	public Unit() {
 		System.out.println("super 생성자"); // 상속할때 상속생성자는 상속안받음
 	
 		this.hp=hp;
@@ -18,6 +18,7 @@ public abstract class Unit {
 	// move라는 공통 메서드 선언
 	public abstract void move(); //완성되지 않은 추상클래스-> 완성시켜서 사용해야함
 	
+	public abstract void attack();
 	
 	public void info() {
 		System.out.println("Super info");

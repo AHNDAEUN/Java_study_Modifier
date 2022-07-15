@@ -1,9 +1,11 @@
 package org.terran;
 
+import org.Unit.Attacker;
 import org.Unit.Unit;
 
-public class Marine extends Unit  {
+public class Marine extends Unit implements Attacker  {
 	
+
 	
 	
 	private String weapon;
@@ -43,7 +45,10 @@ public class Marine extends Unit  {
 	} 
 	
 	//하는 행위= 메서드
-	
+public void atteck() {
+		
+		this.shoot();
+	}
 
 	public void shoot() {
 		
