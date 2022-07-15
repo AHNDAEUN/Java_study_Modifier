@@ -5,6 +5,8 @@ public class Iu {
 	private String name;
 	private int age;
 	
+	//fix-study
+	private String test;
 	
 	//메서드 접근지정자 public으로 시작 public void set변수명 (데이터타입 변수명){}
 	//setter 멤버변수의 값을 집어넣기 위함
