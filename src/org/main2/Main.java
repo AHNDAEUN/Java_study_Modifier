@@ -25,5 +25,18 @@ public static void main(String[] args) {
 		//  remove- 삭제할 숫자를 입력받아서 일치하는 숫자 삭제
 		//	 CollectionStionSet.add -> {1,2,3,4}
 		//	 CollectionStionSet.remove -> 	 {2,3}
+
+
+
+	String name = "test"; 
+	char ch =name.charAt(2);
+	System.out.println(ch);	
+	
+	//1. 타입, 2. 변수명 확인하기
+	//name.charAt(2)이 상태로 두면 자판기에서 나온 돈을 확인하지 않는 것과 같음
+	//뽑은돈 받아서 확인 => return
+				
+		
+ 
 }
 }
