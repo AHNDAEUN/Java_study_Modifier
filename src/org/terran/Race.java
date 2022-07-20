@@ -7,8 +7,8 @@ public class Race extends AirUnit {
 	
 	//비행기 
 	
-	public void move() {
-		System.out.println("뛰어다녕");
+//	public void move() {
+//		System.out.println("뛰어다녕");
 		
 	}
 

@@ -13,9 +13,9 @@ public class Hydra extends Unit implements Attacker {
 		// TODO Auto-generated method stub
 
 	}
-	private void Attecker() {
-		// TODO Auto-generated method stub
-
+		public void attack() {
+		
+		
 	}
 	
 	public void move() {
@@ -28,4 +28,8 @@ public class Hydra extends Unit implements Attacker {
 		System.out.println("공격");	
 		}
 	
-}
+	
+	
+	}
+	
+

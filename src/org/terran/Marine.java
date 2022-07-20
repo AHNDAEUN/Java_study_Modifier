@@ -45,10 +45,6 @@ public class Marine extends Unit implements Attacker  {
 	} 
 	
 	//하는 행위= 메서드
-public void atteck() {
-		
-		this.shoot();
-	}
 
 	public void shoot() {
 		
