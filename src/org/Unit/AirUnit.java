@@ -10,6 +10,7 @@ public abstract class AirUnit extends Unit {
 	}
 	
 	public void setWings(int wings) {
+		this.wings = wings;
 		
 	}
 }
